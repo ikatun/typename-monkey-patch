@@ -1,0 +1,39 @@
+{
+  "name": "typename-monkey-patch",
+  "version": "1.0.0",
+  "description": "Remove __typename fields from graphql HOC in react-apollo component.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ikatun/typename-monkey-patch.git"
+  },
+  "author": "Ivo Katunaric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikatun/typename-monkey-patch/issues"
+  },
+  "homepage": "https://github.com/ikatun/typename-monkey-patch#readme",
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "object-key-filter": "0.0.4"
+  },
+  "keywords": [
+    "react",
+    "graphql",
+    "apollo",
+    "typename",
+    "__typename",
+    "apollo-react",
+    "Unknown field __typename"
+  ]
+}
