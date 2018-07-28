@@ -1,6 +1,6 @@
 {
   "name": "typename-monkey-patch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove __typename fields from graphql HOC in react-apollo component.",
   "main": "./lib/index.js",
   "scripts": {

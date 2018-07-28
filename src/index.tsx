@@ -7,7 +7,7 @@ export const originalGraphql = reactApollo.graphql;
 
 export const graphqlWithoutTypename = (...args: any[]) => (Component: any) => {
   const SubstituteComponent = ({ data, ...props }: { data: any }) => {
-    const dataWithoutTypename = objectKeyFilter(data, ['__typename'], true);
+    const dataWithoutTypename = typeof data === 'object' ? objectKeyFilter(data, ['__typename'], true) : data;
 
     return <Component {...props} data={dataWithoutTypename} />;
   };
